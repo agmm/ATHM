@@ -5,5 +5,19 @@
     "cheerio": "^1.0.0-rc.3",
     "querystring": "^0.2.0",
     "tough-cookie": "^3.0.1"
-  }
+  },
+  "name": "athm",
+  "description": "A simple library to interact with 'ATH Móvil' from Javascript.",
+  "version": "1.0.0",
+  "main": "./lib/main.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arnaldo Gabriel",
+  "license": "MIT"
 }
