@@ -9,4 +9,4 @@ const credentials = {
     answers: { 'Q1.8': 'Albert', 'Q1.7': 'Saphire', 'Q1.10': 'San Juan' }
 }
 
-exports.credentials = credentials;
+module.exports = credentials;
