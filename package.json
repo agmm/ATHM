@@ -8,7 +8,7 @@
   },
   "name": "athm",
   "description": "A simple library to interact with 'ATH Móvil' from Javascript.",
-  "version": "1.0.0",
+  "version": "0.0.3",
   "main": "./lib/main.js",
   "directories": {
     "example": "examples",
