@@ -30,7 +30,7 @@ This a library that allows you to interact with *ATH Móvil* from Javascript. Yo
 Self contained example to get the balance of the current account.
 
 ```js
-const { Athm } = require('athm');
+const Athm = require('athm');
 
 const credentials = {
     username: 'example@gmail.com',
@@ -53,7 +53,7 @@ printBalance();
 Self contained example to send one dollar to an specified phone number using the default debit card.
 
 ```js
-const { Athm } = require('athm');
+const Athm = require('athm');
 
 const credentials = {
     username: 'example@gmail.com',
@@ -76,7 +76,7 @@ sendOneDollar();
 Self contained example to get the name of the owner of the current account and the default card associated with it.
 
 ```js
-const { Athm } = require('athm');
+const Athm = require('athm');
 
 const credentials = {
     username: 'example@gmail.com',
@@ -102,7 +102,7 @@ printInfo();
 Self contained example to get the name, balance and first card associated with the current account. This method, in contrast to using the other methods separately, obtains the information with a single `GET` request.
 
 ```js
-const { Athm } = require('athm');
+const Athm = require('athm');
 
 const credentials = {
     username: 'example@gmail.com',
@@ -128,7 +128,7 @@ Self contained example to get the balance of the current account. This examples 
 
 ```js
 
-const { Athm } = require('athm');
+const Athm = require('athm');
 
 const credentials = {
     username: 'example@gmail.com',
@@ -150,7 +150,7 @@ Example on how to use most of the available methods.
 
 ```js
 
-const { Athm } = require('athm');
+const Athm = require('athm');
 
 const credentials = {
     username: 'example@gmail.com',
