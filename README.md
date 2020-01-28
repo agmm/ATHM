@@ -11,9 +11,9 @@
 
 ## Shortcuts
 
-- [Examples](examples.md)
-- [API Reference](api-reference.md)
-- [How to Set up Credentials](CredentialsHowTo.md)
+- [Examples](docs/examples.md)
+- [API Reference](docs/api-reference.md)
+- [How to Set up Credentials](docs/CredentialsHowTo.md)
 
 ## Disclaimers
 
@@ -61,7 +61,7 @@ To set up the credentials do the following:
 
 2. On the 'Change Security Questions' page select the questions that you want and answer them.
 
-3. Use [this list](CredentialsHowTo.md) to determine the IDs of your selected questions.
+3. Use [this list](docs/CredentialsHowTo.md) to determine the IDs of your selected questions.
 
 4. Use these IDs to set up your credentials object like this:
 
